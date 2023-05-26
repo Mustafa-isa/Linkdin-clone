@@ -74,13 +74,13 @@ left: 100px;
 & .login_dev{
   width:60%
 
-  @media (max-width: 768px) {
+  @media(max-width: 768px) {
     width:100%
   
         }
 }
   
-}
+
 & .HeroImage{
   position: absolute;
     width: 400px;
@@ -129,7 +129,10 @@ function Login() {
     <ContentLogin>
     
     <div className="login_dev">
-    <Title>Welcome To Your Profational Commuinty</Title>
+    <Title>Welcome To Your Profational 
+      
+      <br/>
+      Commuinty</Title>
     <ButtonLogin>
     Sign In With
       <img src={GoogleImage} alt="" />
