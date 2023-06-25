@@ -1,0 +1,14 @@
+
+@media (max-width: 768px) {
+
+  .HeroImage {
+    width: 300px;
+    top: 140%;
+    left: auto;
+    right: auto;
+    position: absolute;
+    margin-top: 200px;
+    margin-right: 230px;
+    max-width: 350px;
+}
+}

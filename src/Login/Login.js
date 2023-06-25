@@ -1,8 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
-import LoginLogo from "./assets/images/login-logo.svg"
-import GoogleImage from "./assets/images/google.svg"
-import HeroImage from "./assets/images/login-hero.svg"
+import LoginLogo from "../assets/images/login-logo.svg"
+import GoogleImage from "..//assets/images/google.svg"
+import HeroImage from "../assets/images/login-hero.svg"
+import './login.css'
 const Header = styled.div`
 width:90%;
 margin-left:auto;
@@ -74,10 +75,6 @@ left: 100px;
 & .login_dev{
   width:60%
 
-  @media(max-width: 768px) {
-    width:100%
-  
-        }
 }
   
 
@@ -85,13 +82,9 @@ left: 100px;
   position: absolute;
     width: 400px;
     top: 51%;
-    right: -100px;
-    @media (max-width: 768px) {
-      width: 300px;
-    top: 140%;
-    left: auto;
-    right: auto;
-        }
+    right: -250px;
+    /* 
+        } */
 }
 `
 const ButtonLogin = styled.button`
