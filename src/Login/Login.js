@@ -18,6 +18,7 @@ align-items:center;
   }
 
 `;
+
 const ContainerBtn = styled.div`
 display: flex;
 justify-content: space-around;
@@ -54,7 +55,7 @@ const SignUpButton = styled.button`
   }
 `;
 const Title = styled.h1`
-  font-size: 2rem;
+  font-size: 2.8rem;
   font-weight: bold;
   color: #0077B5;
   text-align: left;
@@ -63,7 +64,7 @@ const Title = styled.h1`
 `;
 const ContentLogin  = styled.div`
 position: absolute;
-top:70px;
+top:60px;
 left: 100px;
 @media (max-width: 768px) {
   left:40px;
@@ -80,16 +81,16 @@ left: 100px;
 
 & .HeroImage{
   position: absolute;
-    width: 400px;
-    top: 51%;
-    right: -250px;
+    width: 350px;
+    top: 47%;
+    right: -200px;
     /* 
         } */
 }
 `
 const ButtonLogin = styled.button`
 
-width: 250px;
+width: 300px;
     border-radius: 25px;
     -webkit-box-align: center;
     align-items: center;
@@ -101,8 +102,14 @@ width: 250px;
     transition: all.3s ease;
     margin-top: 50px;
     cursor: pointer;
+    padding: 10px;
+    transition:  .2s;
     &:focus{
       transform: scale(.95);
+    }
+    &:hover{
+      background-color: #ccc;
+      border: 2px solid #fff;
     }
 
 `
